@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "89719610062",
+    "project_id": "mghgroup-ca7c2",
+    "storage_bucket": "mghgroup-ca7c2.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:89719610062:android:d330ebf5c7d74916340e9f",
+        "android_client_info": {
+          "package_name": "com.example.mgh"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgbVDMp0ZDdPzWvnYHibWXwyOMU5Gt2sA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
