@@ -18,7 +18,6 @@ class _ImagePikerState extends State<ImagePiker> {
   Widget build(BuildContext context) {
     return BlocConsumer<AppLogic, AppState>(
       listener: (context, state) {
-        // TODO: Implement listener
       },
       builder: (context, state) {
         var cubit = AppLogic.get(context);
@@ -60,7 +59,7 @@ class _ImagePikerState extends State<ImagePiker> {
                       itemBuilder: (context, index) {
                         return GestureDetector(
                           key: ValueKey(cubit.images[
-                              index]), // Unique key for ReorderableListView
+                              index]), 
                           onTap: () {
                             Navigator.push(
                               context,
